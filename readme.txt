@@ -1,0 +1,1 @@
+cd nckh && pip install .
