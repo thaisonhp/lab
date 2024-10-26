@@ -3,11 +3,7 @@ import numpy as np
 
 
 if __name__ == '__main__':
-    from f1.clustering.utility import round_float, extract_labels
-    from f1.clustering.utility import fetch_data_from_local, TEST_CASES
-    from f1.clustering.validity import davies_bouldin, partition_coefficient, partition_entropy, dunn, classification_entropy, silhouette, hypervolume, cs, separation, calinski_harabasz
-    from f1.clustering.cmeans.fcm import Dfcm
-    from f1.clustering.cmeans.pfcm import Dpfcm
+
 
     ROUND_FLOAT = 4
     MAX_ITER = 1000
